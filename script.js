@@ -16,7 +16,11 @@ generateBtn.addEventListener("click", writePassword);
 //function that asks user for various inputs (password length, types of characters, etc)
 //and builds a string based on those inputs
 function generatePassword() {
+  //get length
   var passwordLength = prompt("How long do you want your password?");
-  console.log(passwordLength);
 
+  //get booleans to determine which characters should be used
+  var useUppercase = confirm("Do you want to use uppercase letters?");
+  var useLowercase = confirm("Do you want to use lowercase letters?");
+  var useSpecial = confirm("Do you want to use special characters?");
 }
