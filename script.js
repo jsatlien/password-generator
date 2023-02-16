@@ -12,3 +12,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+//function that asks user for various inputs (password length, types of characters, etc)
+//and builds a string based on those inputs
+function generatePassword() {
+  var passwordLength = prompt("How long do you want your password?");
+  console.log(passwordLength);
+
+}
